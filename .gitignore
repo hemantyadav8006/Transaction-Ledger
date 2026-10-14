@@ -1,0 +1,44 @@
+# Compiled binaries and executables
+*.exe
+*.out
+*.app
+*.bin
+
+# Object files and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Debug symbols
+*.pdb
+*.ilk
+*.idb
+
+# Build directories
+build/
+bin/
+out/
+dist/
+
+# IDE and Editor configurations
+.vscode/
+.vs/
+.idea/
+.gemini/
+*.suo
+*.user
+*.useroscan
+*.sln.docstates
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Application runtime data (preserve folder, ignore generated CSV logs)
+data/*.csv
+!data/.gitkeep
